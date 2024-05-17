@@ -35,7 +35,7 @@ function App() {
         toast.error(toastData?.message);
         break;
       default:
-        toast.error("Default Case! Try Again");
+        toast.success("Welcome to Connectify !");
     }
   }, [toastData]);
 
