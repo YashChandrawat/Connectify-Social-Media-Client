@@ -9,7 +9,7 @@ import {
 // import { showToast } from "../redux/slices/appConfigSlice"
 // import { TOAST_FAILURE } from "../App"
 
-const baseURlReact = "https://connectify-social-media-server.onrender.com/";
+const baseURlReact = "https://connectify-social-media-server.onrender.com";
 
 export const axiosClient = axios.create({
   // baseURL: process.env.REACT_APP_BASE_URL,
